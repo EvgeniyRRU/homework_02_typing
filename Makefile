@@ -2,5 +2,5 @@ install:
 	uv sync
 
 typing:
-	python -m mypy .
+	uv run mypy ./challenges/
 
